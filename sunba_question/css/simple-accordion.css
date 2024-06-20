@@ -1,0 +1,27 @@
+.ac ul{display:none}.ac-list-item{position:relative}.ac-btn{display:flex;justify-content:center;align-items:center;width:1rem;height:1rem;position:absolute;top:1rem;right:10px}.ac-btn::after{content:"+"}.ac .is-open>.ac-list{display:block}.ac .is-open>.ac-btn::after{content:"-"}.ac--animation ul{display:block;max-height:0;transition:max-height .3s ease;overflow:hidden}.ac--animation .is-open>.ac-list{max-height:500px}
+/* custom style */
+ul.myAccordion-list{margin: 0 0 0 -40px;}
+.myAccordion-list li{ list-style: none;}
+.myAccordion-list li a {
+    display: block;
+    border-bottom: 1px solid #9d9d9d;
+    padding: 9px;
+    color:#292929;
+    font-size: 1.1em;
+}
+.myAccordion-list > li:first-child > ul > li > a{
+    border-bottom: 0;
+}
+.myAccordion-list > li:first-child > ul > li:last-child > a{
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.myAccordion-list li a:hover { text-decoration: none; }
+.myAccordion-list li:first-child a {border-top: 1px solid #9d9d9d;}
+.myAccordion-list li ul{margin: 0 0 0 -40px;}
+.myAccordion-list li ul li a {background: rgba(0,0,0,0.1)}
+.myAccordion-list li ul li ul li a {background: rgba(0,0,0,0.15)}
+
+.ac-btn{top:0; right: 0; border-left: 1px solid #9d9d9d; padding: 22px;}
+.ac-btn:after{font-size: 1.8em;font-family: "Font Awesome 5 Pro"; content: "\f105";}
+.ac .is-open>.ac-btn::after{content: "\f107";}

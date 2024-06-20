@@ -1,0 +1,21 @@
+@charset "utf-8";
+.ContentFontLarge{font-size:120%;}
+.ContentFontNormal{font-size:100%;}
+.ContentFontSmall{font-size:80%;}
+#adjustfontsize a{border:1px dashed; padding:2px 4px; border-radius:2px; display:inline-block; margin-right:5px;}
+#adjustfontsize a:hover{border:1px solid;}
+#adjustfontsize a.actived{border:1px solid #000; color:#000;}
+#jumptocontent{color:rgba(0, 0, 0, 0); position:absolute;}
+#jumptocontent:focus{border:1px solid #09F;color:rgba(0, 0, 0, 1);}
+a:focus{border:1px solid #09F;}
+.noJSalert{background: #ffffde; border-bottom: 1px solid #d0d1a2; padding: 5px; color: #606053;}
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
